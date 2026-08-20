@@ -34,7 +34,7 @@
 
             {{-- Kartu 1: Aplikasi --}}
 
-            <a href="#"
+            <a href="https://app.edtechnology.id/"
 
                class="group bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-xl hover:border-blue-500 hover:-translate-y-1 transition-all duration-300 text-center flex flex-col items-center">
 
