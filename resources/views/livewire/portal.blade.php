@@ -5,24 +5,28 @@
      
     {{-- OVERLAY GELAP SUDAH SAYA HAPUS DI SINI BIAR CERAH --}}
 
-{{-- 1. LOGO --}}
-    {{-- Di HP margin kita normalkan (mt-2), di Laptop baru ditarik tinggi ke atas (md:-mt-36) --}}
-    <div class="relative z-10 flex justify-center w-full mb-4 md:mb-6 mt-2 md:-mt-28">
+{{-- 1. LOGO KOLABORASI --}}
+    {{-- Margin atas disesuaikan agar tidak terlalu terbang (-mt-16), jarak bawah dirapatkan --}}
+    <div class="relative z-10 flex justify-center w-full mb-6 md:mb-8 mt-2 md:-mt-24">
         <img src="{{ asset('images/logo.png') }}" 
              alt="Logo Kolaborasi" 
-             class="w-full max-w-[280px] md:max-w-[350px] h-auto drop-shadow-sm">
+             class="w-full max-w-[280px] md:max-w-[400px] h-auto drop-shadow-sm">
     </div>
     
     {{-- 2. WADAH UTAMA KONTEN --}}
-    <div class="max-w-5xl w-full relative z-10 md:mt-8">
+    <div class="max-w-5xl w-full relative z-10 md:mt-2">
 
-        {{-- Judul Minimalis --}}
-        <div class="text-center mb-8 md:mb-12">
-            <h1 class="text-4xl md:text-5xl font-bold text-white md:text-blue-500 mb-2 md:mb-3">RelasiBaik.</h1>
+        {{-- Judul dan Logo Riset Group --}}
+        <div class="text-center mb-8 md:mb-10 flex flex-col items-center">
             
-            {{-- Tambahkan class 'hidden md:block' di sini agar teks hilang di HP, tapi tetap muncul di Laptop --}}
-            <p class="hidden md:block text-slate-600 text-lg drop-shadow-md">
-                Sistem Pakar & Portal Grup Riset Keluarga Indonesia
+            {{-- Logo diperkecil (h-24) agar pas mengisi punuk putih tanpa mendesak konten bawah --}}
+            <img src="{{ asset('images/logoriset.png') }}" 
+                 alt="Logo Technology and Human Interaction Research Group" 
+                 class="h-20 md:h-24 mb-3 drop-shadow-sm hover:scale-105 transition-transform duration-300">
+            
+            {{-- Teks dipertegas (font-semibold, teks sedikit digelapkan) agar mengimbangi logo --}}
+            <p class="hidden md:block text-slate-700 text-base md:text-lg font-semibold max-w-2xl text-center">
+                Portal Resmi Technology and Human Interaction Research Group
             </p>
         </div>
 
