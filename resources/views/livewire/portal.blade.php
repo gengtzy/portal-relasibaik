@@ -14,18 +14,13 @@
     </div>
     
     {{-- 2. WADAH UTAMA KONTEN --}}
-    <div class="max-w-5xl w-full relative z-10 md:mt-2">
+    <div class="max-w-5xl w-full relative z-10 md:mt-2 bg-white/80 backdrop-blur-md rounded-3xl p-6 md:p-10 shadow-sm border border-white/60">
 
-        {{-- Judul dan Logo Riset Group --}}
+        {{-- Judul --}}
         <div class="text-center mb-8 md:mb-10 flex flex-col items-center">
             
-            {{-- Logo diperkecil (h-24) agar pas mengisi punuk putih tanpa mendesak konten bawah --}}
-            <img src="{{ asset('images/logoriset.png') }}" 
-                 alt="Logo Technology and Human Interaction Research Group" 
-                 class="h-20 md:h-24 mb-3 drop-shadow-sm hover:scale-105 transition-transform duration-300">
-            
             {{-- Teks dipertegas (font-semibold, teks sedikit digelapkan) agar mengimbangi logo --}}
-            <p class="hidden md:block text-slate-700 text-base md:text-lg font-semibold max-w-2xl text-center">
+            <p class="hidden md:block text-slate-800 text-lg md:text-xl font-bold max-w-2xl text-center">
                 Portal Resmi Technology and Human Interaction Research Group
             </p>
         </div>
